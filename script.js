@@ -10,7 +10,7 @@ $('#search-btn').on('click',function(){
   
     $.ajax({
       type: 'GET',
-      url: 'https://api.spoonacular.com/recipes/complexSearch?query='+searchKey+'&maxFat=25&number=2&apiKey=7908ed84392a4b3b8b3bc6da2ebc6715',
+      url: 'https://api.spoonacular.com/recipes/complexSearch?query='+searchKey+'&maxFat=25&number=10&apiKey=7908ed84392a4b3b8b3bc6da2ebc6715',
       async: false,
       dataType: 'json',
       success: function(data){
