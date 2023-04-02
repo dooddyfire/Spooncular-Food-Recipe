@@ -1,0 +1,63 @@
+body{
+background: -webkit-linear-gradient(to top, rgba(17, 56, 97, 0.3), rgb(1, 18, 27)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to top, rgba(17, 56, 97, 0.3), rgb(1, 18, 27)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to top, rgba(17, 56, 97, 0.3), rgb(1, 18, 27));/* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, rgba(17, 56, 97, 0.3), rgb(1, 18, 27));/* Standard syntax (must be last) */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding-bottom: 200px;
+}
+img{
+ width: 100px;
+  height: 100px;
+}
+#search-area{
+  margin-top: 100px;
+  color: white;
+}
+.gap{
+  margin: 2%;
+}
+#search{
+  height: 40px;
+  width: 60%;
+  border: 2px solid #009688;
+  border-radius: 15px;
+}
+.btn{
+  background-color: #009688;
+  color: white;
+  border-radius: 30px;
+}
+#search-btn{
+  background-color: #009688;
+  color: white;
+  height: 50px;
+  width: 50px;
+  line-height: 30px;
+  border-radius: 50%;
+}
+.btn:hover{
+  color: black;
+}
+#search-btn:hover{
+  color: black;
+}
+h2{
+  color: white;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #009688;
+}
+ul{
+  padding: 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+a{
+  color: white;
+}
+li{
+ list-style: none;
+ padding: 20px;
+ border-bottom: 2px solid #009688;
+}
